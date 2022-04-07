@@ -1,38 +1,37 @@
 /*
-Lección 3: Tarea de posicionamiento con CSS. Todo el trabajo debe hacerse en este archivo, por lo que si estás tocando cualquier otro
+Lecciónrea de posicionamiento con CSS. Todo el trabajo debe hacerse en este archivo, por lo que si estás tocando cualquier otro
 archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 */
 
 /* Ejercicio 1: Centrar el texto en un span */
 
 /* Arrancaremos este ejercicio por vos: */
-#ejercicioUno {
+#ejercicioUno { text-align: center;
+	display: block; 
 
-}
+			}
 
+#ejercicioDos { display:none;
 
-/* Ejercicio 2: Posicionar el header */
+			}
 
-/* Acá va tu código */
+#ejercicioTres { position:relative ;
+				margin-top:100px ;
+				margin-left: 200px;
 
-
-
-/* Ejercicio 3: */
-
-/* Acá va tu código */
-
-
-
-/* Ejercicio 4: */
-
-/* Acá va tu código */
+			}
 
 
+#ejercicioCuatro { position: fixed;
+ 					top: 0px;
+ 				}
 
-/* Ejercicio 5: */
+#ejercicioCinco { display: flex;
+                 justify-content: space-around; 
+                 flex-direction: row-reverse;
+			}
 
-/* Acá va tu código */
 
-
-
-/* Ejercicio 6. */
+/* Ejercicio 6. MIRAR EL VIDEO DE DALTO Y JUGAR CON LAS FORMAS DE LAS CAJAS */
+ 
+ #ejercicioSiete 
